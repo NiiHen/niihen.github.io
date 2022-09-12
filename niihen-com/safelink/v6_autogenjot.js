@@ -163,5 +163,5 @@ else if(harta == sak5)
 
 var kontlink = Base64.decode(beras1), kontlinked = Base64.decode(kontlink).replace("http://","").replace("https://",""), kontlinkedfix = encodeURIComponent(kontlinked); 
 function betah(){ 
-	window.open('https://paid4link.com/st?api=bfa6a6e355e28c2f9624a976d9980f0ef2244d35&url='+kontlinked); 
+	window.open('https://exe.io/st?api=6064b08f527bb1c8bc62da3880641d0631aff380&url='+kontlinked); 
 }

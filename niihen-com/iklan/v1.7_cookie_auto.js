@@ -64,19 +64,12 @@ var num = hitunganviewnya;
    if(num % 5 == 0) {
       //document.write('Number is even!');
       //window.location='https://s.zlink1.com/d.php?z=4767250';
-      //window.location='https://www.profitablecpmgate.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8';
-      var _cpp = _cpp || [];
-      _cpp['source_id'] = '95572';
-      _cpp['pop_type'] = '11';
-      _cpp['onePer'] = '0';
-      _cpp['freq'] = '0';
-      _cpp['fb'] = '01';
-      (function() {
-      var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-      hs.src = ('//cdn1.adcdnx.com/s/adp1v3.js');
-      var cs = document.getElementsByTagName('script')[0];
-      cs.parentNode.insertBefore(hs, cs);
-      })();
+      //window.location='https://www.profitablecpmgate.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8'; 
+      
+      var scriptxGHEAs = document.createElement('script');
+      scriptxGHEAs.setAttribute('data-zone', '4985181');
+      scriptxGHEAs.setAttribute('src', 'https://inklinkor.com/tag.min.js');
+      document.head.appendChild(scriptxGHEAs);   
       
    } else {
       //document.write('Number is odd!');    

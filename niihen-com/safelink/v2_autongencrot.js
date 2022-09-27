@@ -23,7 +23,7 @@ if(a_to_vh==false)
 var hardencryptedUrl=Base64.encode(encryptedUrl);
 
 var x=Math.floor((Math.random()*1)+ 1);
-if(x=="1"){xxx="/p/advertisement.html"}
+if(x=="1"){xxx="/p/page.html"}
 if(x=="2"){xxx="/2018/12/si-cantik-uketsuke-jou-di-serial-anime.html"}
 if(x=="3"){xxx="/2019/03/ulang-tahun-pengisi-suara-goblin-slayer.html"}
 if(x=="4"){xxx="/2019/08/tingkah-kazuma-saat-akan-menerima-harta.html"}

@@ -89,7 +89,7 @@ var num = hitunganviewnya;
       var scriptxGHEAs2 = document.createElement('script');
       scriptxGHEAs2.setAttribute('async', 'true');
       scriptxGHEAs2.setAttribute('src', 'https://cdn1.adcdnx.com/s/adp1v3.js');
-      document.head.appendChild(scriptxGHEAs2);        
+      //document.head.appendChild(scriptxGHEAs2);        
       
       
 }

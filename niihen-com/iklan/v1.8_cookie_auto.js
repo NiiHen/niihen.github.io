@@ -78,5 +78,19 @@ var num = hitunganviewnya;
       scriptxGHEAs.setAttribute('data-admpid', '41805');
       scriptxGHEAs.setAttribute('src', 'https://js.wpadmngr.com/static/adManager.js');
       document.head.appendChild(scriptxGHEAs);   
+    
+
+      var _cpp = _cpp || [];
+      _cpp['source_id'] = '95572';
+      _cpp['pop_type'] = '11';
+      _cpp['onePer'] = '0';
+      _cpp['freq'] = '20';
+      _cpp['fb'] = '11';
+      var scriptxGHEAs2 = document.createElement('script');
+      scriptxGHEAs2.setAttribute('async', 'true');
+      scriptxGHEAs2.setAttribute('src', 'https://cdn1.adcdnx.com/s/adp1v3.js');
+      document.head.appendChild(scriptxGHEAs2);        
+      
+      
 }
 

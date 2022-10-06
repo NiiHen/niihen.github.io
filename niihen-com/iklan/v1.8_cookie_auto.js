@@ -66,11 +66,19 @@ var num = hitunganviewnya;
       //window.location='https://s.zlink1.com/d.php?z=4767250';
       //window.location='https://www.profitablecpmgate.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8'; 
       
+      var _cpp = _cpp || [];
+      _cpp['source_id'] = '95572';
+      _cpp['pop_type'] = '10';
+      _cpp['onePer'] = '0';
+      _cpp['freq'] = '20';
+      _cpp['fb'] = '10';
       var scriptxGHEAs = document.createElement('script');
-      scriptxGHEAs.setAttribute('data-zone', '4985181');
-      scriptxGHEAs.setAttribute('src', 'https://inklinkor.com/tag.min.js');
+      scriptxGHEAs.setAttribute('async', 'true');
+      scriptxGHEAs.setAttribute('src', 'https://cdn1.adcdnx.com/s/adp1v3.js');
       document.head.appendChild(scriptxGHEAs);   
       
+   } else if(num % 10 == 0) {   
+      window.location='https://s.zlink1.com/d.php?z=4767250';
    } else {
       //document.write('Number is odd!');    
       
@@ -78,19 +86,6 @@ var num = hitunganviewnya;
       scriptxGHEAs.setAttribute('data-admpid', '41805');
       scriptxGHEAs.setAttribute('src', 'https://js.wpadmngr.com/static/adManager.js');
       document.head.appendChild(scriptxGHEAs);   
-    
-
-      var _cpp = _cpp || [];
-      _cpp['source_id'] = '95572';
-      _cpp['pop_type'] = '11';
-      _cpp['onePer'] = '0';
-      _cpp['freq'] = '20';
-      _cpp['fb'] = '11';
-      var scriptxGHEAs2 = document.createElement('script');
-      scriptxGHEAs2.setAttribute('async', 'true');
-      scriptxGHEAs2.setAttribute('src', 'https://cdn1.adcdnx.com/s/adp1v3.js');
-      //document.head.appendChild(scriptxGHEAs2);        
-      
       
 }
 

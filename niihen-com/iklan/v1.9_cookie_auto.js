@@ -61,7 +61,9 @@ console.log(hitunganviewnya);
 
 var num = hitunganviewnya;
    //document.write("Number = "+num+"<br>");
-   if(num % 5 == 0) {
+   if(num == 10) { 
+      window.location='https://s.zlink1.com/d.php?z=4767250';
+   } else if(num % 5 == 0) {
       //document.write('Number is even!');
       //window.location='https://s.zlink1.com/d.php?z=4767250';
       //window.location='https://www.profitablecpmgate.com/d935uuk9?key=155feaf5ca9d2b1dcba49fd42bcef5b8'; 
@@ -76,9 +78,7 @@ var num = hitunganviewnya;
       scriptxGHEAs.setAttribute('async', 'true');
       scriptxGHEAs.setAttribute('src', 'https://cdn1.adcdnx.com/s/adp1v3.js');
       document.head.appendChild(scriptxGHEAs);   
-      
-   } else if(num % 10 == 0) {   
-      window.location='https://s.zlink1.com/d.php?z=4767250';
+
    } else {
       //document.write('Number is odd!');    
       

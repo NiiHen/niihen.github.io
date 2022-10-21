@@ -22,7 +22,7 @@ console.log("Ada 4rekomendasiJAV");
       }
       jQuery(function($) {
         $("#4rekomendasiJAV").rss("https://www.blogger.com/feeds/7486822895993461897/posts/default?max-results=8&start-index=1", {
-	  layoutTemplate: "<div class='related-title'><p class='ms-title'>Konten Sponsor</p></div><ul class='ms-related-hasthumb'>{entries}</ul>",	
+	  layoutTemplate: "<ul class='ms-related-hasthumb'>{entries}</ul>",	
           entryTemplate: "<li>"+
 		
 	"<a rel='dofollow' href='" + "{url}" + 

@@ -8,9 +8,9 @@ console.log("Ada 4rekomendasiJAV");
 			$(this).attr("href", bmfix); 
 				
 			});
-			$('img[src^="https://"]').each(function(){ 
-			var tnfix = $(this).attr("src").replace("/w640-h428/","/w192-h108-c-rw/");	
-			$(this).attr("src", tnfix); 	
+			$('img[data-src^="https://"]').each(function(){ 
+			var tnfix = $(this).attr("data-src").replace("/w640-h428/","/w192-h108-c-rw/");	
+			$(this).attr("data-src", tnfix); 	
 			});	
 		});
 	

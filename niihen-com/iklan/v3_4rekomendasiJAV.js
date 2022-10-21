@@ -15,7 +15,7 @@ console.log("Ada 4rekomendasiJAV");
         "' alt='Download JAV " + "{title}" + 
         " ' title='Download JAV " + "{title}" + 
         " ' src='https://lh4.googleusercontent.com/-8FaUdtZGvFM/XZzJNW-VG5I/AAAAAAAADIo/5520jWvYEqUQ_D8i_vva369pfT1iRtrhwCLcBGAsYHQ/w300-h170-rw-n-l85-fSoften=10,30,0/NiiHen.png' width='192' height='108'/></div><div class='related-title-outer'>"+"{title}"+
-        "</div></a></li>";			
+        "</div></a></li>"+			
 						//	"<div id='url'>{url}</div>"+
 						//	"<div id='author'>{author}</div>"+
 						//	"<div id='date'>{date}</div>"+

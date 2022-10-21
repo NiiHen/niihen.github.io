@@ -18,6 +18,7 @@ console.log("Ada 4rekomendasiJAV");
       }
       jQuery(function($) {
         $("#4rekomendasiJAV").rss("https://www.blogger.com/feeds/7486822895993461897/posts/default?max-results=4&start-index=1", {
+	  layoutTemplate: "<ul class='ms-related-hasthumb'>{entries}</ul>",	
           entryTemplate: "<li>"+
 		
 	"<a rel='dofollow' href='" + "{url}" + 

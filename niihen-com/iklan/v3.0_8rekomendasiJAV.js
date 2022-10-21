@@ -8,7 +8,7 @@ console.log("Ada 4rekomendasiJAV");
 			$(this).attr("href", bmfix); 
 				
 			});
-			$('img[data-src^="https://"]').each(function(){ 
+			$('img[title^="Download JAV"]').each(function(){ 
 			var tnfix = $(this).attr("data-src").replace(/w+[0-9]+-h+[0-9]/,"w192-h108-c-rw").replace(/-c-rw+[0-9]+[0-9]/,"-c-rw");	
 			$(this).attr("data-src", tnfix); 	
 			});	

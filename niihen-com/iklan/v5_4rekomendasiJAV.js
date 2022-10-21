@@ -1,13 +1,14 @@
 
 function ngonsole(){
 console.log("Ada 4rekomendasiJAV");	
+	
 }
 
       var readTokenFromResponse = function(response, attr) {
         return $(response).find('tr th:contains(' + attr + ')').parent().find('td').text()
       }
       jQuery(function($) {
-        $("#rss-feeds").rss("https://www.blogger.com/feeds/7486822895993461897/posts/default?max-results=4&start-index=1", {
+        $("#4rekomendasiJAV").rss("https://www.blogger.com/feeds/7486822895993461897/posts/default?max-results=4&start-index=1", {
           entryTemplate: "<li>"+
 		
 	"<a rel='dofollow' href='" + "{url}" + 

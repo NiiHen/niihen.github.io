@@ -9,7 +9,7 @@ console.log("Ada 4rekomendasiJAV");
 				
 			});
 			$('img[data-src^="https://"]').each(function(){ 
-			var tnfix = $(this).attr("data-src").replace(/w+[0-9]+-h[0-9]/,"w192-h108-c-rw");	
+			var tnfix = $(this).attr("data-src").replace(/w+[0-9]+-h+[0-9]/,"w192-h108-c-rw");	
 			$(this).attr("data-src", tnfix); 	
 			});	
 		});

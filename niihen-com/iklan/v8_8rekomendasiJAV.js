@@ -6,8 +6,12 @@ console.log("Ada 4rekomendasiJAV");
 			$('a[href^="https://www.blogmeat.cf"]').each(function(){ 
 			var bmfix = $(this).attr("href").replace("www.blogmeat.cf","7486822895993461897_6fe6c0fbdf0d210eecb7e5d644a411d037c435af.blogspot.com");
 			$(this).attr("href", bmfix); 
-		
+				
 			});
+			$('img[src^="https://"]').each(function(){ 
+			var tnfix = $(this).attr("href").replace("/w640-h428/","/w192-h108-c-rw/");	
+			$(this).attr("src", tnfix); 	
+			});	
 		});
 	
 	
@@ -18,7 +22,7 @@ console.log("Ada 4rekomendasiJAV");
       }
       jQuery(function($) {
         $("#4rekomendasiJAV").rss("https://www.blogger.com/feeds/7486822895993461897/posts/default?max-results=8&start-index=1", {
-	  layoutTemplate: "<ul class='ms-related-hasthumb'>{entries}</ul>",	
+	  layoutTemplate: "<div class='related-title'><p class='ms-title'>Konten Sponsor</p></div><ul class='ms-related-hasthumb'>{entries}</ul>",	
           entryTemplate: "<li>"+
 		
 	"<a rel='dofollow' href='" + "{url}" + 

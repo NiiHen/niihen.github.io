@@ -2,6 +2,15 @@
 function ngonsole(){
 console.log("Ada 4rekomendasiJAV");	
 	
+		$(document).ready(function(){
+			$('a[href^="https://www.blogmeat.cf"]').each(function(){ 
+			var bmfix = $(this).attr("href").replace("www.blogmeat.cf","7486822895993461897_6fe6c0fbdf0d210eecb7e5d644a411d037c435af.blogspot.com");
+			$(this).attr("href", bmfix); 
+		
+			});
+		});
+	
+	
 }
 
       var readTokenFromResponse = function(response, attr) {

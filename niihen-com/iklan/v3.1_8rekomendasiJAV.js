@@ -1,6 +1,6 @@
 
 function ngonsole(){
-console.log("Ada 4rekomendasiJAV");	
+console.log("Ada 8rekomendasiJAV");	
 	
 		$(document).ready(function(){
 			$('a[href^="https://www.blogmeat.cf"]').each(function(){ 
@@ -9,7 +9,7 @@ console.log("Ada 4rekomendasiJAV");
 				
 			});
 			$('img[title^="Download JAV"]').each(function(){ 
-			var tnfix = $(this).attr("data-src").replace(/w+[0-9]+-h+[0-9]/,"w192-h108-c-rw").replace(/-c-rw+[0-9]+[0-9]/,"-c-rw");	
+			var tnfix = $(this).attr("data-src").replace(/w+[0-9]+-h+[0-9]/,"w192-h108-c-rw").replace(/-c-rw+[0-9]+[0-9]/,"-c-rw").replace("://","://dl.kaskus.id/");	
 			$(this).attr("data-src", tnfix); 	
 			});	
 		});

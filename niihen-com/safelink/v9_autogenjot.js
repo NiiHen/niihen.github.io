@@ -11,7 +11,7 @@ else{c2=utftext.charCodeAt(i+ 1);c3=utftext.charCodeAt(i+ 2);string+=String.from
 return string;}}
 
 
-	var buatmakan = "https://"+sldm+"/p/review.html";
+	var buatmakan = "https://"+sldm+"/p/"+slpg+".html";
     	var harta = window.location.href;
 	var karun1 = buatmakan+"?m=1&download=";
 	var karun2 = buatmakan+"?m=1&d0wnload=";

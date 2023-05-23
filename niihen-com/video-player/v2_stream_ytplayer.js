@@ -48,7 +48,7 @@ function nobar(json) {
 }
 
 var script = document.createElement('script');
-script.src = fee+"?alt=json-in-script&callback=nobar";
+script.src = fee.replace("https://as64d98wrw5213t146551d23f1vsd31f2.blogspot.com","https://js.movieluck.ml")+"?alt=json&callback=nobars";
 document.getElementsByTagName('head')[0].appendChild(script);
 
 //console.log(feed);

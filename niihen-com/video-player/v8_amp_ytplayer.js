@@ -71,7 +71,9 @@ function nobar(json) {
 }
 
 var script = document.createElement('script');
-script.src = fee+"?alt=json-in-script&callback=nobar";
+script.src = fee 	.replace("as64d98wrw5213t146551d23f1vsd31f2.blogspot.com","js.movieluck.ml")
+			.replace("files-google-code-for-my-s0cial-media.blogspot.com","js.idblog.eu.org")+
+	"?alt=json-in-script&callback=nobar";
 document.getElementsByTagName('head')[0].appendChild(script);
 
 //console.log(feed);
